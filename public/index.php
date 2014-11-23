@@ -30,69 +30,56 @@
         
 
 </head>
+
 <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="/">Sweet Bee Bakery</a>
-            </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav pull-right">
-                    <li><a href="#">Order</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">About Us</a></li>
-                </ul>
-            </div>
+  <div class="container">
+
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Sweet Bee Bakery</a>
         </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Order</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div><!--/.container-fluid -->
+    </nav>
+
+    <!-- Main component for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <h1><i class="fa fa-heart"></i>Sweet Bee Bakery<i class="fa fa-heart"></i></h1>
     </div>
-
-    <section id="topper">
-        <h1>Welcome to<br><i class="fa fa-heart"></i> Sweet Bee Bakery <i class="fa fa-heart"></i></h1>
-    </section>
-
-    <article>
-        <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-            </div>
-            <div class="col-md-2"></div>
-        </div>
-    </article>
 
     <footer id="site-footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <a href="http://box.scotch.io">Website created</a> by <a href="http://claybinion.com">Clay Binion</a>.
+                    Website created by <a href="http://claybinion.com">Clay Binion</a>
                 </div>
             </div>
         </div>
     </footer>
 
 
+  </div> <!-- /container -->
+
     <!-- Styles -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
-    <script>
-
-    </script>
 
 </body>
 </html>
