@@ -25,7 +25,7 @@ section {
 
 #topper {
     margin-top: 51px;
-    height: 450px;
+    height: 350px;
     text-align: center;
 }
 
@@ -86,9 +86,9 @@ article .fa-check {
 
 #site-footer {
     background: #05003D;
-    padding: 100px 0;
+    padding: 25px 0;
     color: #e3e3e3;
-    font-size: 35px;
+    font-size: 20px;
 }
 
 #site-footer a {
