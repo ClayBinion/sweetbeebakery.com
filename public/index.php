@@ -45,11 +45,10 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav pull-right">
-                    <li><a href="#">Sooner</a></li>
-                    <li><a href="#">or</a></li>
-                    <li><a href="#">Later</a></li>
-                    <li><a href="#">Something</a></li>
-                    <li><a href="#">Will Be Here</a></li>
+                    <li><a href="#">Order</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">About Us</a></li>
                 </ul>
             </div>
         </div>
