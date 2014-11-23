@@ -8,7 +8,7 @@
 
     <!-- Meta -->
     <meta charset="utf-8">
-    <title>Sweet Bee Bakery ♥</title>
+    <title>♥ Sweet Bee Bakery ♥</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="yes" name="apple-mobile-web-app-capable">
@@ -60,7 +60,7 @@
 
     <!-- Main component for a primary marketing message or call to action -->
     <div class="jumbotron">
-      <h1><i class="fa fa-heart"></i>Sweet Bee Bakery<i class="fa fa-heart"></i></h1>
+      <h1><i class="fa fa-heart"></i> Sweet Bee Bakery <i class="fa fa-heart"></i></h1>
     </div>
 
     <footer id="site-footer">
