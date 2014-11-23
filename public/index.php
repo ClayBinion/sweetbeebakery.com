@@ -54,9 +54,8 @@
         </div>
     </div>
 
-    <section id="topper" style="background-color: #696969; background-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc1MCcgaGVpZ2h0PScxMDAnIHZpZXdCb3g9JzAgMCA1IDEwJz4KCTxwYXRoIGQ9J00wLDBsNSw1bC01LDVtLTEsLTZsMSwxbC0xLDFNNCwtMWw2LDZsLTYsNicgZmlsbC1vcGFjaXR5PScwJyBzdHJva2U9JyM2ZTZlNmUnIHN0cm9rZS13aWR0aD0nMicvPgo8L3N2Zz4=');
-">
-        <h1>Welcome to<br>Sweet Bee Bakery <i class="fa fa-heart"></i></h1>
+    <section id="topper">
+        <h1>Welcome to<br><i class="fa fa-heart"></i> Sweet Bee Bakery <i class="fa fa-heart"></i></h1>
     </section>
 
     <article>

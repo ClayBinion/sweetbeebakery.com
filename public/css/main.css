@@ -1,6 +1,6 @@
 ::selection {
     background: #000;
-    color: #fff;
+    color: #000;
 }
 
 ::-moz-selection {
@@ -16,17 +16,38 @@ a {
     -webkit-transition: all 310ms ease;
     -moz-transition: all 310ms ease;
     transition: all 310ms ease;
-    text-decoration: none !important;
+    text-decoration: none;
 }
 
 section {
     position: relative;
 }
 
+.navbar-inverse {
+    background-color: #9B7FC2;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    font-size: 20px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #D2CBDB;
+    text-decoration: underline;
+}
+
 #topper {
     margin-top: 51px;
     height: 350px;
     text-align: center;
+         /** Background from: http://svgeneration.com/ */
+    background-color: #e6e68f;background-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc1MCcgaGVpZ2h0PScxMDAnIHZpZXdCb3g9JzAgMCA1IDEwJz4KCTxwYXRoIGQ9J00wLDBsNSw1bC01LDVtLTEsLTZsMSwxbC0xLDFNNCwtMWw2LDZsLTYsNicgZmlsbC1vcGFjaXR5PScwJyBzdHJva2U9JyNiZGJkYmQnIHN0cm9rZS13aWR0aD0nMS43Jy8+Cjwvc3ZnPg==');
 }
 
 #topper svg {
@@ -39,7 +60,7 @@ section {
 
 #topper h1 {
     position: absolute;
-    color: #fff;
+    color: #9B7FC2;
     left: 50%;
     top: 50%;
     -o-transform: translate(-50%, -50%);
@@ -50,6 +71,25 @@ section {
     margin: 0;
     font-size: 80px;
     text-transform: uppercase;
+    
+     /* WebKit (Safari/Chrome) Only */
+    -webkit-text-stroke: 1px black;
+      
+    /* If we weren't using text-shadow, we'd set a fallback color
+       and use this to set color instead
+      -webkit-text-fill-color: white; */
+    
+    color: white;
+      
+    text-shadow:
+      0px 1px 0 #000,
+
+      0px 0px 0 #000,  
+      1px -1px 0 #000,
+     -1px  1px 0 #000,
+      1px  1px 0 #000;
+
+      text-shadow: 1px 1px 30px rgba(191, 165, 194, 1);
 }
 
 #topper h1 i {
@@ -85,10 +125,11 @@ article .fa-check {
 }
 
 #site-footer {
-    background: #05003D;
+    background: #9B7FC2;
     padding: 25px 0;
     color: #e3e3e3;
     font-size: 20px;
+    text-align: right;
 }
 
 #site-footer a {
