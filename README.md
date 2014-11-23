@@ -1,17 +1,13 @@
-=======================
-  sweetbeebakery.com
-=======================
-
+# sweetbeebakery.com
 This is the source code for sweetbeebakery.com
 
+***
 
+Resources Used:
 
+  - SVG Background Generation: http://svgeneration.com/
+  - Vagrant VM Build: http://box.scotch.io/
 
+***
 
-
-
-Learning things as I go.
-
-=======================
-  Made by Clay Binion
-=======================
+######Made by Clay Binion 
