@@ -27,13 +27,19 @@ section {
     position: relative;
 }
 
+.container {
+    background-color: #fff;
+    border-radius: 4px;
+}
+
 .navbar {
+  margin-top: 15px;
   margin-bottom: 20px;
 }
 
 .navbar-default {
-    background-color: #9B7FC2;
-    border-color: #e6e68f;
+    background-color: inherit;
+    border-color: transparent;
 }
 
 .navbar-default .navbar-brand {
@@ -42,7 +48,7 @@ section {
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #fff;
+    color: #000;
     font-size: 20px;
 }
 
@@ -90,13 +96,13 @@ section {
 }
 
 #site-footer {
-    background: #9B7FC2;
+    background-color: inherit;
+    border-color: transparent;
     padding: 12.5px 0;
-    color: #e3e3e3;
+    color: #000;
     font-size: 18px;
     text-align: right;
     border-radius: 4px;
-    border: 1px solid #e6e68f;
 }
 
 #site-footer .row {
@@ -104,9 +110,9 @@ section {
 }
 
 #site-footer a {
-    color: #fff;
+    color: #e3e3e3;
 }
 
 #site-footer a:hover {
-    color: rgb(144, 255, 184);
+    color: #000;
 }

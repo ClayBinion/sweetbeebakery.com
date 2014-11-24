@@ -45,12 +45,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Sweet Bee Bakery</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Order</a></li>
             <li><a href="#">Services</a></li>
+          </ul>
+          <ul class="nav navbar-nav pull-right">
             <li><a href="#">Gallery</a></li>
             <li><a href="#">About Us</a></li>
           </ul>
@@ -64,13 +65,11 @@
     </div>
 
     <footer id="site-footer">
-        <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     Website created by <a href="http://claybinion.com">Clay Binion</a>
                 </div>
             </div>
-        </div>
     </footer>
 
 
