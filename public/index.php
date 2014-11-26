@@ -32,9 +32,6 @@
 </head>
 
 <body>
-    
-    
-
   <div class="container">
   <!-- Center Logo over nav-->
     <header>
