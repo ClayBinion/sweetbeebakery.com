@@ -32,10 +32,14 @@
 </head>
 
 <body>
+    
+    
 
   <div class="container">
-
-    <!-- Static navbar -->
+  <!-- Center Logo over nav-->
+    <header>
+    </header>
+    <!-- Navbar -->
     <nav class="navbar navbar-default" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -51,7 +55,7 @@
             <li class="active"><a href="#">Order</a></li>
             <li><a href="#">Services</a></li>
           </ul>
-          <ul class="nav navbar-nav pull-right">
+          <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Gallery</a></li>
             <li><a href="#">About Us</a></li>
           </ul>
