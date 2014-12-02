@@ -10,4 +10,4 @@ Resources Used:
 
 ***
 
-######Made by [Clay Binion](https://claybinion.com) 
+######Made by [Clay Binion](http://claybinion.com) 
