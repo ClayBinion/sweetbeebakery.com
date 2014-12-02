@@ -22,13 +22,13 @@ a {
 }
 
 .text-center{
-    margin-top: 50px;
+    margin-top: 10%;
 }
 
 h1 {
     color: #9B7FC2;
     margin: 0;
-    font-size: 80px;
+    font-size: 6em;
     text-align: center;
     text-transform: uppercase;
     
